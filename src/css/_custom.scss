@@ -10,6 +10,8 @@
 		@include perspective(1500px);
 
 		&, &.sidenav-transition, .control-menu {
+			z-index: 501;
+
 			@include transition(none);
 		}
 
@@ -33,7 +35,9 @@
 			}
 
 			#wrapper {
-				@include transform(translateZ(-400px) rotateY(-30deg));
+				overflow: hidden;
+
+				@include transform(translateZ(-400px) translateX(20px) rotateY(-30deg));
 			}
 		}
 	}
