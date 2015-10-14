@@ -4,6 +4,9 @@
   "keywords": [
     "liferay-theme"
   ],
+  "files": [
+    "src"
+  ],
   "liferayTheme": {
     "themelet": true,
     "version": "7.0"
