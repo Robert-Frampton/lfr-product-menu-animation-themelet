@@ -1,7 +1,7 @@
 {
   "name": "lfr-product-menu-animation-themelet",
-  "description": "Alternative style/animation for Liferay 7.0's product menu.",
   "version": "0.0.4",
+  "description": "Alternative style/animation for Liferay 7.0 product menu.",
   "keywords": [
     "liferay-theme"
   ],
