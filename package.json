@@ -9,7 +9,11 @@
     "src"
   ],
   "liferayTheme": {
+    "screenshot": "https://raw.githubusercontent.com/Robert-Frampton/lfr-product-menu-animation-themelet/master/screenshot.png",
     "themelet": true,
     "version": "7.0"
+  },
+  "publishConfig": {
+    "tag": "7_0_x"
   }
 }
