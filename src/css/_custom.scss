@@ -3,7 +3,7 @@
 		height: 100%;
 	}
 
-	body {
+	body.signed-in {
 		background-color: #222;
 		position: relative;
 
@@ -17,8 +17,9 @@
 
 		#wrapper {
 			background-color: #FFF;
-			bottom: 40px;
+			bottom: 0;
 			left: 0;
+			margin-top: 42px;
 			overflow: auto;
 			position: fixed;
 			right: 0;
@@ -43,8 +44,8 @@
 	}
 
 	.lfr-product-menu-panel.sidenav-fixed.sidenav-menu-slider {
-		bottom: 40px;
 		opacity: 1;
+		top: 40px;
 
 		@include transition(opacity 400ms, transform 300ms);
 		@include transition-delay(100ms);
