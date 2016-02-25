@@ -4,7 +4,7 @@
 	}
 
 	body.signed-in {
-		background-color: #222;
+		background-color: #18272E;
 		position: relative;
 
 		@include perspective(1500px);
@@ -24,7 +24,7 @@
 			position: fixed;
 			right: 0;
 			top: 0;
-			z-index: 501;
+			z-index: 502;
 
 			@include transition(transform 300ms);
 			@include transform-origin(right);
@@ -37,6 +37,7 @@
 
 			#wrapper {
 				overflow: hidden;
+				padding-left: 15px;
 
 				@include transform(translateZ(-400px) translateX(20px) rotateY(-30deg));
 			}
